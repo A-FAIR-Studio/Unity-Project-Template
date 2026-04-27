@@ -33,6 +33,7 @@
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -146,6 +147,23 @@ http-client.private.env.json
 *.code-workspace
 
 *.vsix
+
+# ===================================
+# OS & Local Files
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===================================
+# Local Environment & Config
+# ===================================
+.env.local
+.env.*.local
 
 # ===================================
 # Other
